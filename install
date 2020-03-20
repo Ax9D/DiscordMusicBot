@@ -3,4 +3,5 @@
 git clone https://github.com/Ax9D/DiscordMusicBot.git
 cd DiscordMusicBot 
 npm install
+mkdir music
 node main.js

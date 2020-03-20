@@ -1,0 +1,24 @@
+class Test
+{
+    constructor(x,y)
+    {
+       this.x=x;
+       this.y=y;
+    }
+    print()
+    {
+        console.log(this.x);
+        console.log(this.y);
+    }
+}
+
+function update(t)
+{
+	t.x=2;
+	t.y="B";
+}
+
+let a=new Test(1,"A");
+a.print();
+update(a);
+a.print();

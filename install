@@ -1,0 +1,6 @@
+#!/bin/bash
+
+git clone https://github.com/Ax9D/DiscordMusicBot.git
+cd DiscordMusicBot 
+npm install
+node main.js
